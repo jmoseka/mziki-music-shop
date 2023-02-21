@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h3 {
+  font-size: 1.55rem; }
+
+h4 {
+  font-size: 1.2rem; }
+
+p {
+  margin: 0; }
+
+.heading {
+  margin-top: 3rem; }
+
+.sidebar-title {
+  font-size: 2.2rem; }
+
+.music-genre-title {
+  font-size: 1.6rem; }
+
+.btn {
+  padding: 1.2rem 4rem;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #d4d6d8;
+  border-radius: 6px; }

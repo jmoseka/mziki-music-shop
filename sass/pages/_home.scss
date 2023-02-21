@@ -1,0 +1,54 @@
+.container {
+    max-width: 1349px;
+    margin: 0 auto;
+}
+.hero-section {
+    width: 100%;
+    height: 63rem;
+    display: flex;
+
+    img {
+        width: 100%;
+    }
+
+    &_1 {
+        width: 50%;
+        background-color: purple;
+    }
+
+    &_2 {
+        width: 50%;
+        display: flex;
+        
+        .grid-1 {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+            &_img1 {
+                height: 50%;
+                background-image: linear-gradient(0deg, rgba(59, 78, 120, 0.45), rgba(59, 78, 120, 0.45)), url('/images/hero-img-1.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &_img2 {
+                height: 50%;
+                background-image: linear-gradient(0deg,rgba(178, 110, 178, 0.5), rgba(178, 110, 178, 0.5)), url('/images/hero-img-3.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        }
+
+        .grid-2 {
+            width: 50%;
+            background-image: linear-gradient(0deg, rgba(64, 44, 153, 0.5), rgba(64, 44, 153, 0.5)), url('/images/hero-img-2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 100% 100%;
+            background-color: rebeccapurple;
+            
+        }
+    }
+}

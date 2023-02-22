@@ -38,6 +38,9 @@ html {
     transition: .3s ease;
     color: #4d8ab9; }
 
+.caption {
+  font-size: 14px; }
+
 p {
   font-size: 1.8rem;
   word-spacing: .5px;
@@ -140,27 +143,64 @@ body {
     .benefit_card-icon {
       align-self: center; }
     .benefit_card_text-title {
-      font-weight: 700;
-      font-size: 1.9rem; }
+      font-weight: 700; }
     .benefit_card_text-desc {
+      font-weight: 600;
       font-size: 1.6rem;
       color: #626364; }
 
 footer {
-  background-color: #182843; }
+  background-color: #182843;
+  color: #a3a9b4; }
 
 .footer {
   margin: 100px 140px 0 140px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.2rem; }
 
 .footer-card {
-  color: #a3a9b4; }
+  padding: 5rem 0; }
   .footer-card_title {
-    font-size: 1.6rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 4rem; }
   .footer-card_text {
-    font-size: 1.4rem; }
+    margin-top: 1rem;
+    font-size: 1.6rem; }
+    .footer-card_text ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .footer-card_text ul li {
+        line-height: 2rem; }
+    .footer-card_text_form input {
+      padding: 1rem;
+      border-radius: 4px;
+      border: none;
+      outline: none; }
+    .footer-card_text_form button {
+      border-radius: 4px;
+      padding: 1rem;
+      border: 2px solid #a3a9b4;
+      outline: none;
+      width: 10rem;
+      background-color: transparent;
+      color: #a3a9b4;
+      cursor: pointer; }
+    .footer-card_text_form button:hover {
+      border: 2px solid #747e8e;
+      color: #747e8e; }
 
 .footer-logo {
   width: 33%; }
+
+.footer-links_line {
+  border: .01rem solid #2f3e56; }
+
+.footer-links_copyright {
+  text-align: right;
+  padding: 1.5rem 0;
+  margin: 0 140px;
+  font-size: 14px; }

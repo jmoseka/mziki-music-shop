@@ -145,3 +145,22 @@ body {
     .benefit_card_text-desc {
       font-size: 1.6rem;
       color: #626364; }
+
+footer {
+  background-color: #182843; }
+
+.footer {
+  margin: 100px 140px 0 140px;
+  display: flex;
+  justify-content: space-between; }
+
+.footer-card {
+  color: #a3a9b4; }
+  .footer-card_title {
+    font-size: 1.6rem;
+    text-transform: uppercase; }
+  .footer-card_text {
+    font-size: 1.4rem; }
+
+.footer-logo {
+  width: 33%; }

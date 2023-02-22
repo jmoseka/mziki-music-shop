@@ -104,3 +104,34 @@ body {
 }
 
 // footer-styling
+footer {
+    background-color: $color-primary;
+}
+.footer {
+    margin: $margin-big-top 140px 0 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-card {
+    color: #a3a9b4;
+
+    &_title {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+    }
+
+    &_text {
+        font-size: 1.4rem;
+        
+    }
+}
+
+
+.footer-logo {
+    width: 33%;
+}
+
+
+
+

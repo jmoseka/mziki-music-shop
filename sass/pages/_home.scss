@@ -1,10 +1,15 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    color: $white;
+}
+
 .container {
     max-width: 1349px;
     margin: 0 auto;
 }
 .hero-section {
     width: 100%;
-    height: 63rem;
+    height: 62rem;
     display: flex;
 
     img {
@@ -12,8 +17,17 @@
     }
 
     &_1 {
-        width: 50%;
-        background-color: purple;
+        position: relative;
+        color: $white;
+        width: 60%;
+        background-color: $color-primary;
+
+        .heading-body {
+            position: absolute;
+            margin-left: 18.15%;;
+            top: 48%;
+            padding-right: 2rem;
+          }
     }
 
     &_2 {
@@ -47,8 +61,46 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 100% 100%;
-            background-color: rebeccapurple;
             
         }
     }
 }
+
+.body-section-container {
+    margin: 0 140px;
+    color: $black;
+}
+
+.benefit {
+    margin-top: $margin-medium-top;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+
+    &_card {
+        display: flex;
+
+        &-icon {
+            align-self: center;
+
+        }
+
+        &_text {
+            
+            &-title {
+                font-weight: 700;
+                font-size: 1.9rem;
+            }
+
+            &-desc {
+                font-size: 1.6rem;
+                color: $light-grey;
+                
+            }
+        }
+    }
+}
+
+// footer-styling

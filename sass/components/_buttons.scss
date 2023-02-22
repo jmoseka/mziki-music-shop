@@ -3,6 +3,17 @@
   background-color: transparent;
   outline: none;
   cursor: pointer;
-  border: 1px solid $color-primary-light;
+  border: 1px solid white;
   border-radius: 6px;
+  background-color: $color-primary;
 }
+
+.shop-btn {
+  margin-top: 4rem;
+  background-color: $color-secondary;
+  border: none;
+  color: hsl(275, 5%, 16%);
+  font-weight: 600;
+}
+
+

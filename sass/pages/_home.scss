@@ -72,14 +72,15 @@ body {
 }
 
 .benefit {
+    background-color: orange;
     margin-top: $margin-medium-top;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-items: space-between;
     gap: .2rem;
 
     &_card {
+        width: 100%;
         border: 4px solid red;
         gap: 1rem;
         display: flex;
@@ -125,6 +126,10 @@ body {
 
 .product-grid-card {
     height: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 7px;
+    transition: .8s ease;
+    cursor: pointer;
 
     &_img {
         height: 80%;
@@ -160,17 +165,15 @@ body {
 }
 
 .product-grid-card:hover {
-    border-radius: 7px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    cursor: pointer;
-    transition: .5s ease;
-    transform: scale(1px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transform: scale(.5px);
 }
 
 
 .show-more-link {
     margin-top: $margin-medium-top;
     text-align: end;
+    display: block;
 }
 
 

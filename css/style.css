@@ -44,7 +44,7 @@ html {
 p {
   font-size: 1.8rem;
   word-spacing: .5px;
-  letter-spacing: .4px;
+  letter-spacing: .3px;
   line-height: 2.6rem; }
 
 h1 {
@@ -92,7 +92,8 @@ h4 {
 
 body {
   font-family: 'Mulish', sans-serif;
-  color: #FCFEFF; }
+  color: #FCFEFF;
+  background-color: #e6eef527; }
 
 .container {
   max-width: 1349px;
@@ -144,17 +145,14 @@ body {
   color: #3B3C3D; }
 
 .benefit {
-  background-color: orange;
   margin-top: 64px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  justify-items: space-between;
-  gap: .2rem; }
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
   .benefit_card {
-    width: 100%;
-    border: 4px solid red;
+    display: flex;
     gap: 1rem;
-    display: flex; }
+    width: 20rem; }
     .benefit_card-icon {
       align-self: center; }
     .benefit_card_text-title {
@@ -173,6 +171,58 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   justify-content: space-between;
   gap: 2.5rem; }
+
+.body-section-why-us {
+  margin-top: 64px;
+  background: #e6eef5b7;
+  padding: 60px 0; }
+
+.section-why-us {
+  margin: 0 140px;
+  color: #3B3C3D; }
+
+.why-us {
+  margin-top: 64px;
+  display: flex;
+  gap: 4rem; }
+  .why-us ul {
+    margin: 0;
+    padding: 0; }
+  .why-us_image {
+    align-self: center;
+    width: 30%; }
+    .why-us_image img {
+      width: 20rem;
+      height: 20rem;
+      border-radius: 50%; }
+
+.why-us_desc ul {
+  list-style: none; }
+  .why-us_desc ul li {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline; }
+  .why-us_desc ul li:not(:first-child) {
+    margin-top: 2rem; }
+
+.why-us_desc .desc-number p {
+  color: #FCFEFF;
+  margin: 0;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  background-color: #00589B;
+  padding: 0 .8rem;
+  border-radius: 4px; }
+
+.why-us_desc .desc-body_title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #00589B; }
+
+.why-us_desc .desc-body_text {
+  margin-top: 8px;
+  color: #3B3C3D; }
 
 .product-grid-card {
   height: 30rem;
@@ -214,13 +264,14 @@ footer {
   color: #a3a9b4; }
 
 .footer {
-  margin: 100px 140px 0 140px;
+  margin: 0 140px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.2rem; }
 
 .footer-card {
+  margin-top: 24px;
   padding: 5rem 0; }
   .footer-card_title {
     text-transform: uppercase;

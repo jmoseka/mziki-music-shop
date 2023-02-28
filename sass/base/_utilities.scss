@@ -1,0 +1,9 @@
+.link {
+  font-size: 1.6rem;
+  color: $color-primary;
+}
+
+.link:hover {
+  color: $color-secondary;
+  transition: 0.8s ease;
+}

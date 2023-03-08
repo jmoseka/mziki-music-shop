@@ -73,6 +73,10 @@ h4 {
   color: #00589b;
   transition: 0.8s ease; }
 
+.active-page {
+  color: #182843;
+  font-weight: 700; }
+
 .btn {
   padding: 1.2rem 4rem;
   outline: none;
@@ -87,6 +91,61 @@ h4 {
   border: none;
   color: #29272b;
   font-weight: 600; }
+
+.body-shop {
+  color: #3b3c3d; }
+
+.nav-center {
+  color: #3b3c3d; }
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem; }
+  .nav-header .nav-toggle {
+    font-size: 1.5rem;
+    cursor: pointer; }
+  .nav-header .nav-toggle:hover {
+    background-color: red; }
+
+.links {
+  height: 0;
+  overflow: hidden;
+  list-style: none; }
+
+.links a {
+  color: #3b3c3d;
+  font-size: 1.8rem;
+  padding: .5rem 1rem;
+  text-decoration: none; }
+
+.links a:hover {
+  color: #00589b; }
+
+@media screen and (min-width: 600px) {
+  .nav-center {
+    border: 3px solid purple;
+    margin: 0 140px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between; }
+  .nav-header {
+    padding: 0; }
+  .nav-toggle {
+    display: none; }
+  .links {
+    height: auto;
+    display: flex; } }
+
+@media (max-width: 800px) {
+  .nav-center {
+    margin: 0 80px; } }
+
+@media (max-width: 700px) {
+  .nav-center {
+    margin: 0 60px; } }
 
 body {
   font-family: 'Mulish', sans-serif;
@@ -312,4 +371,10 @@ footer {
 
 .why-us_desc .desc-body_text {
   margin-top: 8px;
+  color: #3b3c3d; }
+
+.body-shop {
+  background-color: #F9FAFA; }
+
+header {
   color: #3b3c3d; }

@@ -7,3 +7,8 @@
   color: $color-secondary;
   transition: 0.8s ease;
 }
+
+.active-page {
+  color: $color-primary;
+  font-weight: 700;
+}
